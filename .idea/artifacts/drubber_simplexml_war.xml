@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="drubber-simplexml:war">
+    <output-path>$PROJECT_DIR$/drubber-simplexml/target</output-path>
+    <root id="archive" name="drubber-simplexml.war">
+      <element id="artifact" artifact-name="drubber-simplexml:war exploded" />
+    </root>
+  </artifact>
+</component>
