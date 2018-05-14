@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="dubber-learn:war exploded">
+    <output-path>$PROJECT_DIR$/dubber-learn/target/dubber-learn</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="dubber-learn" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.simpleframework:simple-xml:2.6.4" />
+          <element id="library" level="project" name="Maven: stax:stax-api:1.0.1" />
+          <element id="library" level="project" name="Maven: stax:stax:1.2.0" />
+          <element id="library" level="project" name="Maven: xpp3:xpp3:1.1.3.3" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.3" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/dubber-learn/target/dubber-learn/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="dubber-learn/web/Web" />
+    </root>
+  </artifact>
+</component>
