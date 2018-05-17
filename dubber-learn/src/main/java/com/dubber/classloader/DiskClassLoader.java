@@ -28,7 +28,8 @@ public class DiskClassLoader extends ClassLoader {
     }
 
 
-    protected Class<?> findClass(final String name)
+    @Override
+    public Class<?> findClass(final String name)
             throws ClassNotFoundException {
         final Class<?> result;
         try {

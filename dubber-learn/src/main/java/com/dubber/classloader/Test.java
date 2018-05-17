@@ -6,8 +6,8 @@ package com.dubber.classloader;
  * @author dubber
  */
 public class Test {
-
-    public void say(){
-        System.out.println("say hello!");
+    public String say(String name) {
+        System.out.println("say hello!" + name);
+        return "反射方法调用成功";
     }
 }
