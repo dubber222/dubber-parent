@@ -37,11 +37,12 @@ public class ClassLoaderTest {
 
         try {
             //加载class文件
-            Class c = diskClassLoader.loadClass("com.dubber.classloader.Test");
+            Class c = diskClassLoader.loadClass("com.dubber.classloader.Test2");
 
             if (c != null) {
                 try {
                     Object obj = c.newInstance();
+                    System.out.println(c.getName());
                     Method method = c.getDeclaredMethod("say", String.class);
                     //通过反射调用Test类的say方法
                     Object obj2 = method.invoke(obj, "您好！");

@@ -16,7 +16,7 @@ public class DiskClassLoader extends ClassLoader {
      * <p>
      * (1)编写一个类继承自ClassLoader抽象类。
      * (2)复写它的findClass()方法。
-     * (3)在findClass()方法中调用defineClass()。
+     * (3)在findCllass()方法中调用defineCass()。
      * <p>
      * defineClass()
      * 这个方法在编写自定义classloader的时候非常重要，它能将class二进制内容转换成Class对象，如果不符合要求的会抛出各种异常。
@@ -26,7 +26,6 @@ public class DiskClassLoader extends ClassLoader {
     public DiskClassLoader(String path) {
         this.dLibPath = path;
     }
-
 
     @Override
     public Class<?> findClass(final String name)
