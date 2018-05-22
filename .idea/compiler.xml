@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dubber-jmx" />
         <module name="dubber-learn" />
         <module name="dubber-simplexml" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="drubber-simplexml" target="1.7" />
+      <module name="dubber-jmx" target="1.7" />
       <module name="dubber-learn" target="1.7" />
       <module name="dubber-parent" target="1.7" />
       <module name="dubber-simplexml" target="1.7" />
