@@ -9,14 +9,19 @@
         <module name="dubber-jmx" />
         <module name="dubber-learn" />
         <module name="dubber-simplexml" />
+        <module name="jdk-spi" />
+        <module name="mysql-search" />
+        <module name="oracle-search" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="drubber-simplexml" target="1.7" />
       <module name="dubber-jmx" target="1.7" />
       <module name="dubber-learn" target="1.7" />
       <module name="dubber-parent" target="1.7" />
       <module name="dubber-simplexml" target="1.7" />
+      <module name="jdk-spi" target="1.7" />
+      <module name="mysql-search" target="1.7" />
+      <module name="oracle-search" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

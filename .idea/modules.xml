@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/dubber-learn/dubber-learn.iml" filepath="$PROJECT_DIR$/dubber-learn/dubber-learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubber-parent.iml" filepath="$PROJECT_DIR$/dubber-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubber-simplexml/dubber-simplexml.iml" filepath="$PROJECT_DIR$/dubber-simplexml/dubber-simplexml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdk-spi/jdk-spi.iml" filepath="$PROJECT_DIR$/jdk-spi/jdk-spi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mysql-search/mysql-search.iml" filepath="$PROJECT_DIR$/mysql-search/mysql-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oracle-search/oracle-search.iml" filepath="$PROJECT_DIR$/oracle-search/oracle-search.iml" />
     </modules>
   </component>
 </project>

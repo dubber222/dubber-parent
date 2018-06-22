@@ -25,6 +25,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/drubber-simplexml/pom.xml" />
+        <option value="$PROJECT_DIR$/oracle-search/pom.xml" />
       </set>
     </option>
   </component>

@@ -12,6 +12,10 @@
         <module>dubber-simplexml</module>
         <module>dubber-learn</module>
         <module>dubber-jmx</module>
+        <module>mysql-search</module>
+        <module>oracle-search</module>
+        <module>oracle-search</module>
+        <module>jdk-spi</module>
     </modules>
 
     <name>dubber-parent</name>
